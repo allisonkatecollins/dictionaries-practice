@@ -1,0 +1,11 @@
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\obj\Debug\netcoreapp2.2\dictionaries-practice.csprojAssemblyReference.cache
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\obj\Debug\netcoreapp2.2\dictionaries-practice.csproj.CoreCompileInputs.cache
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\obj\Debug\netcoreapp2.2\dictionaries-practice.AssemblyInfoInputs.cache
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\obj\Debug\netcoreapp2.2\dictionaries-practice.AssemblyInfo.cs
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\bin\Debug\netcoreapp2.2\dictionaries-practice.deps.json
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\bin\Debug\netcoreapp2.2\dictionaries-practice.runtimeconfig.json
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\bin\Debug\netcoreapp2.2\dictionaries-practice.runtimeconfig.dev.json
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\bin\Debug\netcoreapp2.2\dictionaries-practice.dll
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\bin\Debug\netcoreapp2.2\dictionaries-practice.pdb
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\obj\Debug\netcoreapp2.2\dictionaries-practice.dll
+C:\Users\allis\workspace\csharp\exercises\dictionaries-practice\obj\Debug\netcoreapp2.2\dictionaries-practice.pdb
