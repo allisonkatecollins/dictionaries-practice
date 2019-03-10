@@ -126,6 +126,18 @@ namespace dictionaries_practice
         //Console.WriteLine($"{}: {}");
         
         Console.WriteLine($"{planet}: {String.Join(",", matchingProbes)}");
+
+        //OUTPUT
+        /*
+          Mercury: Mariner 10
+          Venus: Galileo
+          Earth: International Space Station
+          Mars: Viking 1 Orbiter
+          Jupiter: Voyager 1
+          Saturn: Pioneer 11
+          Uranus: Voyager 2
+          Neptune: Voyager 2
+        */
       }
     }
   }
