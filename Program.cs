@@ -51,49 +51,40 @@ namespace dictionaries_practice
           //replace "stock" from instructions with "kvp" for clarity
           foreach (KeyValuePair<string, double> kvp in purchase)
           {
-            Console.WriteLine($"kvp: {kvp}");
-
-            //check if the new dictionary, stockReport, contains the key for each stock
-            //as it exists within the "purchases" dictionary
-
-            //exclamation mark means "if stockReport does NOT contain the key..."
-             if (! stockReport.ContainsKey(kvp.Key)) {
-
-              //add the KVP from stock dictionary as it exists within purchases list
-              //stockReport is starting with no items
-              stockReport.Add(kvp.Key, kvp.Value);
-            } else {
-
-              //access current value
-              double currentCost = stockReport[kvp.Key];
-
-              //update stockReport with new value --> add to current value
-              //operates right to left
-              stockReport[kvp.Key] = currentCost + kvp.Value;
-            }
-
-            foreach(KeyValuePair<string, double> item in stockReport)
-            {
-            Console.WriteLine($"The position in {item.Key} is worth {item.Value}");
-            }
-
             // Does the full company name key already exist in the `stockReport`?
-            
             // If it does, update the total valuation
-
+            if (stockReport.ContainsKey(stocks[kvp.Key])) {
+              stockReport[stocks[kvp.Key]] += kvp.Value;
             /*
                 If not, add the new key and set its value.
                 You have the value of "GM", so how can you look
                 the value of "GM" in the `stocks` dictionary
                 to get the value of "General Motors"?
-            */
-     
+             */
+            } else {
+              stockReport.Add(stocks[kvp.Key], kvp.Value);
+            }
           }
+            foreach (KeyValuePair<string, double> item in stockReport) {
+              Console.WriteLine($"The position in {item.Key} is worth {item.Value}");
+            }
+          /* 
+            The position in General Motors is worth 230.21
+            The position in General Motors is worth 811.19
+            The position in General Motors is worth 1217.53
+            The position in General Motors is worth 1217.53
+            The position in Caterpillar is worth 100.21
+            The position in General Motors is worth 1217.53
+            The position in Caterpillar is worth 560.54
+            The position in General Motors is worth 1217.53
+            The position in Caterpillar is worth 560.54
+            The position in Dow Jones is worth 508.9
+            The position in General Motors is worth 1217.53
+            The position in Caterpillar is worth 560.54
+            The position in Dow Jones is worth 1209.88
+          */
         }
       }
     }
-   /*  static void Planets(string[] args) {
-
-    } */
   }
 }
